@@ -1,0 +1,416 @@
+* {
+    text-decoration: none;
+    /* outline: 1px solid orange; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.contacts-menu1::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/mail-icon-1.png");
+    width: 17px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.contacts-menu2::before {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url("../images/phone-icon-1.png");
+
+}
+
+.contacts-menu span {
+    display: none;
+}
+
+h1 {
+    width: 238px;
+    color: #FFF;
+    font-family: Courier New;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+.sale-link {
+    color: black;
+    background-color: #FFCB06;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sale-link::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/right-arrow-dark\ 1.png");
+    width: 19px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 59px;
+    margin-right: 22px;
+}
+
+header {
+    background-color: #222222;
+    color: #FFFFFF;
+    height: 699px;
+
+}
+
+header .container {
+    background-image: url("../images/moon-rocket\ 1.png");
+    background-repeat: no-repeat;
+    padding-bottom: 179px;
+    background-position: 100% 140px;
+
+}
+
+.sale-link {
+    padding: 17px 0px 16px 38px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 54px;
+    margin-bottom: 113px;
+}
+
+header ul {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-menu {
+    flex-grow: 1;
+}
+
+.site-menu a {
+    color: #D4D4D4;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+
+.logo-link {
+    margin-right: 62px;
+}
+
+header .left-column {
+    padding-left: 126px;
+}
+
+.description-text {
+    margin: 32px 0 54px 0;
+    color: #D4D4D4;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.advanteges {
+    display: flex;
+    height: 321px;
+    align-items: center;
+    padding: 187px 0 80px 0;
+    background-color: #131313;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.advantages-list p {
+    width: 180px;
+    height: 55px;
+    justify-content: space-between;
+    color: #D4D4D4;
+    margin-right: 80px;
+
+}
+
+.content {
+    display: flex;
+}
+
+.advantages-list li:nth-child(1) p::before {
+    background-image: url("../images/advantage-icon-1\ 1.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-size: cover;
+    width: 60px;
+    height: 68px;
+    display: inline-block;
+    left: 0px;
+    top: -102px;
+    position: absolute;
+}
+
+.advantages-list li:nth-child(2) p::before {
+    background-image: url("../images/advantage-icon-2\ 1.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-size: cover;
+    width: 60px;
+    height: 68px;
+    display: inline-block;
+    top: -102px;
+    position: absolute;
+
+}
+
+.advantages-list li:nth-child(3) p::before {
+    background-image: url("../images/advantage-icon-3-1.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-size: cover;
+    width: 60px;
+    height: 68px;
+    display: inline-block;
+    top: -102px;
+    position: absolute;
+}
+
+.advantages-list li:nth-child(4) p::before {
+    background-image: url("../images/advantage-icon-4-1.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-size: cover;
+    width: 60px;
+    height: 68px;
+    display: inline-block;
+    top: -102px;
+    position: absolute;
+}
+
+.moon-vacation {
+    display: flex;
+}
+
+.moon-vacation .left-column {
+    padding: 80px 79px 0px 0px
+}
+
+.moon-vacation .right-column {
+    padding-top: 85px;
+}
+
+.moon-vacation .right-column h3 {
+    width: 375px;
+    height: 85px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.moon-vacation .right-column p {
+    padding-top: 44px;
+}
+
+.recomendation {
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomendation .left-column {
+    width: 515px;
+    height: 150px;
+    position: relative;
+}
+
+.recomendation .right-column {
+    width: 455px;
+    height: 150px;
+    position: relative;
+}
+
+.recomendation .left-column h3 {
+    padding-bottom: 27px;
+}
+
+.recomendation .right-column h3 {
+    padding-bottom: 27px;
+}
+
+.recomendation .left-column li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #FFCB06;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+
+}
+
+.recomendation .right-column li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #FFCB06;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+
+}
+
+.recomendation .left-column li {
+    padding-left: 31px;
+}
+
+.recomendation .right-column li {
+    padding-left: 31px;
+}
+
+footer {
+    background-color: #131313;
+    color: #D4D4D4;
+    height: 354px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer-logo a {
+    padding-left: 15px;
+}
+
+footer .container .footer-logo p {
+    padding-top: 110px;
+    position: relative;
+    left: -131px;
+}
+
+footer .container .footer-logo img {
+    padding-left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+footer .container div:first-child {
+    padding-top: 60px;
+
+}
+
+footer .container div {
+    padding-top: 90px;
+}
+
+footer .contacts-menu div h3 {
+    padding-bottom: 70px;
+}
+
+footer .container div:first-child div {
+    padding-top: 0;
+    padding-bottom: 110px;
+    display: flex;
+    align-items: center;
+}
+
+
+footer .container div:first-child div a {
+    width: 59px;
+    height: 17px;
+    text-wrap: nowrap;
+    margin-left: 15px;
+
+
+}
+
+footer .container div:first-child p {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .container div h3 {
+    color: #D4D4D4;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+footer .container div h3::after {
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 1px;
+    background-color: #555;
+    position: absolute;
+    left: 0;
+    top: 29px;
+}
+
+footer .container div ul {
+    padding-top: 70px;
+}
+
+footer .container div li {
+    padding-bottom: 22px;
+}
+
+footer .container div li a {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.I_am_already_tired_of_thinking {
+    height: 808px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
